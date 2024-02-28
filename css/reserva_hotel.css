@@ -33,14 +33,13 @@ div {
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
-    
 }
 
 .botones button {
     
     font-size: 1.5rem;
     border-radius: 5px;
-    width: 40%;
+
     
 }
 
