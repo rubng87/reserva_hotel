@@ -39,20 +39,22 @@
         <fieldset>
             <legend>Régimen de comidas:</legend>
             <div>
-                <input type="radio" name="operador" id="suma">
+                <br>
+                <input type="radio" name="operador" id="solo_desayuno" checked>
                 <label for="suma">Sólo desayuno</label>
                 <br>
-                <input type="radio" name="operador" id="resta">
+                <input type="radio" name="operador" id="media_pensión">
                 <label for="resta">Media pensión</label>
                 <br>
-                <input type="radio" name="operador" id="multiplicar">
+                <input type="radio" name="operador" id="pensión_completa">
                 <label for="multiplicar">Pensión completa</label>
+                <br>
                 <br>
             </div>
         </fieldset>
         <div class="botones">
-            <button type="button" onclick="calcular()">Calcular</button>
-            <button type="reset" onclick="limpiar()">Borrar</button>
+            <button type="button" onclick="calcular()">Reservar</button>
+            <button type="reset" onclick="limpiar()">Borrar campos</button>
           </div>
     </main>
 
