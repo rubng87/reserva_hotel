@@ -40,10 +40,11 @@ div > label {
 
 fieldset {
     padding: 10px
-    
-
 }
 
+.input {
+    width: 100%
+}
 div {
     font-size: 1rem;
     
