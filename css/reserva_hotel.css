@@ -23,6 +23,9 @@ legend {
 
 fieldset {
     padding: 10px
+    
+
+
 }
 
 div {
@@ -37,8 +40,9 @@ div {
 
 .botones button {
     
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 5px;
+    
 
     
 }
