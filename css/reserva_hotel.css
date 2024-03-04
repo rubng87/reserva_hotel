@@ -21,6 +21,23 @@ legend {
     
 }
 
+.reserva {
+    display: flex;
+    
+}
+
+
+div > label {
+    margin: 5px;
+}
+
+.width {
+    margin: 5px;
+    padding: 2px;
+    width: 40px;
+    
+}
+
 fieldset {
     padding: 10px
     
@@ -29,6 +46,8 @@ fieldset {
 
 div {
     font-size: 1rem;
+    
+    
 }
 
 .botones {
