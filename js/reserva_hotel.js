@@ -5,6 +5,7 @@ function reservar () {
     let numeroAdultos = document.getElementById("numeroAdultos").value;
     let numeroNiños = document.getElementById("numeroNiños").value
     let opcionesComida = document.getElementsByName("operador")
+    // let reset = document.getElementById("")
 
     let regimen = ""
 
@@ -24,9 +25,19 @@ function reservar () {
     Niños: ${numeroNiños}
     Comidas: ${regimen}
     `)
-    // console.log(opcionesComida[0].value);
+    
 
 
     
 }
 
+
+// function limpiar() {
+//     // console.log("reset")
+//     document.getElementById("reset")
+// }
+// console.log("reset");
+
+function limpiar() {
+
+}

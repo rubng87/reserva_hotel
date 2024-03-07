@@ -19,14 +19,12 @@ h1 {
 
 legend {
     font-size: 1rem;
-    
 }
 
 .reserva {
     display: flex;
     
 }
-
 
 div > label {
     margin: 5px;
@@ -35,8 +33,7 @@ div > label {
 .width {
     margin: 5px;
     padding: 2px;
-    width: 40px;
-    
+    width: 40px;  
 }
 
 fieldset {
@@ -46,11 +43,12 @@ fieldset {
 .input {
     width: 100%
 }
+
 div {
     font-size: 1rem;
-    
-    
 }
+
+/* //Posición y tamaño de botones */
 
 .botones {
     display: flex;
@@ -64,13 +62,18 @@ div {
     border-radius: 5px;
     padding: 5px 10px;
     
-    
-
-    
 }
+
+/* //Colores de los botones y hover del botón reserva */
 
 .botones button:first-child {
     background-color: chartreuse;
+}
+
+.botones button:first-child:hover {
+    color: white;
+    background-color: rgb(12, 110, 48);
+
 }
 .botones button:nth-child(2) {
     background-color: rgb(255 0 0 / 25%);
