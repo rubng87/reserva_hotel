@@ -12,56 +12,60 @@
 <body>
     <main>
         <h1>Reserva de Habitación en hotel</h1>
-        <fieldset>
-            <legend>Datos personales</legend>
-            <div>
-                <label for="nombre">Nombre:</label>
-                <br>
-                <input class="input" type="text" name="nombre" id="nombre" required />
+        <section>
+            <form action="#">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <br>
+                        <input class="input" type="text" name="nombre" id="nombre" required />
 
-            </div>
-            <br>
-            <div>
-                <label for="nombre">Apellido(s):</label>
-                <br>
-                <input class="input" type="text" name="nombre" id="apellido" required />
-            </div>
-        </fieldset>
-        <fieldset class="reserva">
-            <legend>Datos de la reserva</legend>
-            <div>
-                <label for="nombre">Adultos:</label>
-                <br>
-                <input class="width" type="number" name="nombre" id="numeroAdultos" min="1" max="2" required />
-            </div>
-            <br>
-            <div>
-                <label for="nombre">Niños:</label>
-                <br>
-                <input class="width" type="number" name="nombre" id="numeroNiños" min="0" max="3" required />
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>Régimen de comidas:</legend>
-            <div>
-                <br>
-                <input type="radio" name="operador" id="soloDesayuno" value="Sólo Desayuno" checked>
-                <label>Sólo desayuno</label>
-                <br>
-                <input type="radio" name="operador" id="mediaPension" value="Media Pensión">
-                <label>Media pensión</label>
-                <br>
-                <input type="radio" name="operador" id="pensionCompleta" value="Pensión Completa">
-                <label>Pensión completa</label>
-                <br>
-                <br>
-            </div>
-        </fieldset>
-        <div class="botones">
-            <button type="button" onclick="reservar()">Reservar</button>
-            <button type="reset" onclick="limpiar()">Borrar</button>
-            
-        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nombre">Apellido(s):</label>
+                        <br>
+                        <input class="input" type="text" name="nombre" id="apellido" required />
+                    </div>
+                </fieldset>
+                <fieldset class="reserva">
+                    <legend>Datos de la reserva</legend>
+                    <div>
+                        <label for="nombre">Adultos:</label>
+                        <br>
+                        <input class="width" type="number" name="nombre" id="numeroAdultos" min="1" max="2" required />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nombre">Niños:</label>
+                        <br>
+                        <input class="width" type="number" name="nombre" id="numeroNiños" min="0" max="3" required />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Régimen de comidas:</legend>
+                    <div>
+                        <br>
+                        <input type="radio" name="operador" id="soloDesayuno" value="Sólo Desayuno" checked>
+                        <label>Sólo desayuno</label>
+                        <br>
+                        <input type="radio" name="operador" id="mediaPension" value="Media Pensión">
+                        <label>Media pensión</label>
+                        <br>
+                        <input type="radio" name="operador" id="pensionCompleta" value="Pensión Completa">
+                        <label>Pensión completa</label>
+                        <br>
+                        <br>
+                    </div>
+                </fieldset>
+                <div class="botones">
+                    <button type="button" onclick="reservar()">Reservar</button>
+                    <button type="reset">Borrar</button>
+
+                </div>
+            </form>
+        </section>
     </main>
     <script src="js/reserva_hotel.js"></script>
 </body>

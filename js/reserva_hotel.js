@@ -1,12 +1,18 @@
 function reservar () {
     
-    
+
+// Guardar los valores introducidos para guardarlos y usarlos luego en el Alert para tener la información de la reserva.
+
+
     let nombre = document.getElementById("nombre").value;
     let apellido = document.getElementById("apellido").value;
     let numeroAdultos = document.getElementById("numeroAdultos").value;
     let numeroNiños = document.getElementById("numeroNiños").value
     let opcionesComida = document.getElementsByName("operador")
   
+    
+// Recorrer la lista de las opciones hasta encontrar el (true)que será le elección elegida.
+
 
     let regimen = ""
 
@@ -16,6 +22,10 @@ function reservar () {
             break
         } 
     }
+
+
+// Alert donde muestra todos los valores introducidos.
+
 
     alert(`
 
@@ -28,19 +38,4 @@ function reservar () {
     `)
   
 }
-
-// function limpiar() {
-//     console.log("reset");
-//         document.getElementById("reset")
-//     document.getElementById("nombre")
-//     document.getElementById("apellido")
-//     document.getElementById("numeroAdultos")
-//     document.getElementById("numeroNiños")
-
-// }
-// function limpiar() {
-//     // console.log("reset")
-//     document.getElementById("reset")
-// }
-// console.log("reset");
 
