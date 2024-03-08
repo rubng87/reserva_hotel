@@ -64,7 +64,7 @@ div {
     
 }
 
-/* //Colores de los botones y hover del botón reserva */
+/* //Colores de los botones y hover*/
 
 .botones button:first-child {
     background-color: chartreuse;
@@ -75,6 +75,12 @@ div {
     background-color: rgb(12, 110, 48);
 
 }
+
 .botones button:nth-child(2) {
     background-color: rgb(255 0 0 / 25%);
+}
+
+.botones button:nth-child(2):hover {
+    color: white;
+    background-color: rgb(118, 0, 0);
 }
